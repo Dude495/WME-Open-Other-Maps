@@ -547,7 +547,7 @@
                         break;
                 }
 
-                let URL='http://gis3.dot.ny.gov/html5viewer/?viewer=FC&scale='+mapScale+'&extent='+geoNW.x+'%2C'+geoNW.y+'%2C'+geoSE.x+'%2C'+geoSE.y;
+                let URL='http://gis.dot.ny.gov/html5viewer/?viewer=FC&scale='+mapScale+'&extent='+geoNW.x+'%2C'+geoNW.y+'%2C'+geoSE.x+'%2C'+geoSE.y;
                 window.open(URL,"_blank");
             });
         }
@@ -596,7 +596,7 @@
                         break;
                 }
 
-                let URL='https://gis3.dot.ny.gov/html5viewer/?viewer=risvexternal&scale='+mapScale+'&extent='+geoNW.x+'%2C'+geoNW.y+'%2C'+geoSE.x+'%2C'+geoSE.y;
+                let URL='https://gis.dot.ny.gov/html5viewer/?viewer=risviewer&scale='+mapScale+'&extent='+geoNW.x+'%2C'+geoNW.y+'%2C'+geoSE.x+'%2C'+geoSE.y;
                 window.open(URL,"_blank");
             });
         }
